@@ -32,7 +32,32 @@ body {
 .info {
     padding: 40px;
     font-size: 16px;
+    line-height: 1.5em;
 
+}
+
+#git, #linked{
+    color: black;
+    background-color: beige;
+    border-radius: 10px;
+    text-decoration: none;
+    border: solid 1px #333;
+}
+.link-reseau{
+    display: flex;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+#git{
+    padding: 3px;
+}
+#linked{
+    padding: 3px;
+}
+#git:hover, #linked:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #333;
 }
 
 .name {
